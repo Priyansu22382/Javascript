@@ -12,9 +12,9 @@
 //     console.log("Data Saved Succesfully.");
 // }
 
-// saveMyData("Priyanshu",9315580536,2022382);
+// saveMyData("Priyanshu",99865875764,20219779);
 // console.log("\n");
-// saveMyData("Vipul Yadav",8826105171,2022576);
+// saveMyData("Vipul Yadav",7471984691,20197498);
 // console.log("\n");
 
 // function printCounting(num){
