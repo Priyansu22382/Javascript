@@ -1,8 +1,8 @@
 // let obj = {
 //     fullName : "Priyanshu Nigam",
 //     age : 20,
-//     rollNo : 2022382,
-//     contactNumber : 9315580536,
+//     rollNo : 2021989,
+//     contactNumber : 98765457649,
 //     sayMyDetails : function(){
 //         console.log(`Your Name : ${this.fullName}`);
 //         console.log(`Your Age : ${this.age}`);
@@ -25,7 +25,7 @@
 
 // let brr = new Array("Priyanshu","Apple","PineApple",442,9983);
 // console.log(brr);
-// brr.push("Kavya");
+// brr.push("Singh");
 // console.log(brr);
 // brr.pop();
 // console.log(brr);
@@ -34,7 +34,7 @@
 // brr.unshift("Priyanshu");
 // console.log(brr);
 // console.log(brr.slice(1,3));
-// brr.splice(1,2,"Kavya"); // Starting Index, no of delete items, inserting element
+// brr.splice(1,2,"Hindi"); // Starting Index, no of delete items, inserting element
 // console.log(brr);
 
 // let arr1 = new Array(10,40,90,30,21,455,14,155,252,551,15,53,52,56,98,96,99);
