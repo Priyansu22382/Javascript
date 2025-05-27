@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+</head>
+<body>
+    <p>Welcome to the series of javascript.</p>
+    <div class="container">
+        <p id="para1" class="para">This is The First Para.</p>
+        <p id="para2" class="para">This is The Second Para.</p>
+    </div>
+
+
+
+    <script>
+        console.log("This is the document.getElementById() Method Example.");
+        // let element = document.getElementById("para1");
+        // console.log(element);
+        // element.style.backgroundColor = "beige";
+        // console.log(element.innerText);
+        // console.log(element.innerHTML);
+        // console.log(element.textContent);
+
+        console.log("This is the document.getElementsByClassName() Method Example.");
+        // let elements = document.getElementsByClassName("para");
+        // console.log(elements);
+        // console.log(elements[0]);
+        // console.log(elements[1]);
+        // console.log(elements[0].innerText);
+        // console.log(elements[1].innerText);
+        // console.log(elements[0].innerHTML); 
+        // console.log(elements[1].innerHTML);
+
+
+        console.log("This is the document.getElementsByTagName() Method Example.");
+        // let elements = document.getElementsByTagName("p");
+        // console.log(elements);
+        // console.log(elements[0]);
+        // console.log(elements[1]);
+        // console.log(elements[0].innerText);
+        // console.log(elements[1].innerText);
+        // console.log(elements[0].innerHTML);
+        // console.log(elements[1].innerHTML);
+
+        // console.log("This is the document.querySelector() Method Example.");
+        // let element = document.querySelector(".para");
+        // console.log(element); // Returns the first element with the class "para"
+        // console.log(element.innerText);
+        // console.log(element.innerHTML);
+
+
+        console.log("This is the document.querySelectorAll() Method Example.");
+        // let elements = document.querySelectorAll(".para");
+        // console.log(elements); // Returns a NodeList of all elements with the class "para"
+        // console.log(elements[0]); // First element with the class "para"
+        // console.log(elements[1]); // Second element with the class "para"
+        // console.log(elements[0].innerText); // Text content of the first element.
+        // console.log(elements[1].innerText); // Text content of the second element.
+        // console.log(elements[0].innerHTML); // HTML content of the first element.
+        // console.log(elements[1].innerHTML); // HTML content of the second element.
+
+
+
+        console.log("create new element and append it to the container div.");
+        // let element = document.createElement("h1");
+        // element.innerText = "This is a new heading created using JavaScript.";
+        // element.className = "heading";
+        // element.id = "heading1";
+        // console.log(element);
+        // document.querySelector(".container").appendChild(element);
+
+
+        console.log("create new element and insert it before the first paragraph.");
+        // let newElement = document.createElement("h2");
+        // newElement.textContent = "This is a new heading inserted before the first paragraph.";
+        // newElement.className = "heading";
+        // newElement.id = "heading2";
+        // console.log(newElement);
+        // let parent = document.querySelector(".container");
+        // parent.insertAdjacentElement('beforebegin',newElement);
+
+
+        console.log("create new element and insert it after the after beginning of the first paragraph.");
+        // let newElement1 = document.createElement("h2");
+        // newElement1.textContent = "This is a new heading inserted after the first paragraph.";
+        // newElement1.className = "heading";
+        // newElement1.id = "heading3";
+        // console.log(newElement1);
+        // let parent2 = document.querySelector(".container");
+        // parent2.insertAdjacentElement('afterbegin', newElement);
+
+        console.log("create new element and insert it before the end of the first paragraph.");
+        // let newElement = document.createElement("h2");
+        // newElement.textContent = "This is a new heading inserted before the end of the first paragraph.";
+        // newElement.className = "heading";  
+        // newElement.id = "heading4";
+        // console.log(newElement);
+        // let parent = document.querySelector(".container");
+        // parent.insertAdjacentElement('beforeend', newElement);
+
+
+
+        console.log("create new element and insert it after the end of the first paragraph.");
+        // let newElement = document.createElement("h2");
+        // newElement.textContent = "This is a new heading inserted after the end of the first paragraph.";
+        // newElement.className = "heading";
+        // newElement.id = "heading5";
+        // console.log(newElement);
+        // let parent = document.querySelector(".container");
+        // parent.insertAdjacentElement('afterend', newElement);
+
+        console.log("remove the first paragraph.");
+        let parent = document.querySelector(".container");
+        let child = document.querySelector("#para1");
+        parent.removeChild(child);
+
+    </script>
+</body>
+</html>
